@@ -8,7 +8,7 @@ const token = config.token;
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.categories = fs.readdirSync("./commands/");
-client.prefix = config.prefix;
+client.prefix = config.X?;
 
 
 ["command", "event"].forEach(handler => {
@@ -23,4 +23,4 @@ client.prefix = config.prefix;
     require("./events/guild/memberRemove")(message)
   })
 
-  client.login(token);
+  client.login(NzkyMDY4NTgyODYzMTQyOTMy.X-YVWg.K1drOQ4g3d7oDmSMOXb1u8C8h54);
