@@ -23,4 +23,4 @@ client.prefix = config.prefix;
     require("./events/guild/memberRemove")(message)
   })
 
-  client.login(token);
+  client.login(NzkyMDY4NTgyODYzMTQyOTMy.X-YVWg.K1drOQ4g3d7oDmSMOXb1u8C8h54);
